@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Bulb Project</title>
+  <link href="stylebulb.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<body class=" mx-auto">
+  <h1>
+    BULB ON OFF PROJECT USING JAVASCRIPT 
+ </h1>
+  
+  <button onclick="btn1on()">Turn On Light</button>
+<img src="assets/images/pic_bulboff.gif" alt="image"id="demo">
+<button onclick="btn1off()">Turn off light</button>
+
+<script>
+    function btn1on(){
+         document.getElementById("demo").src="assets/images/pic_bulbon.gif"
+    }
+    function btn1off(){
+        document.getElementById("demo").src="assets/images/pic_bulboff.gif";
+    }
+</script><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  <footer style="border: solid thick red;">Made By Sanika Ghodake</footer>
+</body>
+</html>

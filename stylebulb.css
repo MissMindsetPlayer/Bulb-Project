@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  align-items: center;
+  
+  background-color: #69ffed;
+  
+  }
+footer{
+  text-align:center;
+  background-color:#5e77e6;
+  font-family: cursive;
+  height: 40px; 
+  padding-top: 20px;
+  
+  }
+button{
+  background-color:orange;
+}
